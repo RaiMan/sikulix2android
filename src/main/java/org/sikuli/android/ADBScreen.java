@@ -109,7 +109,7 @@ public class ADBScreen extends Region implements EventObserver, IScreen {
     if (isValid()) {
       return "";
     } else {
-      return "ADBScreen not valid";
+      return "No Andoid device found or\nAndroid support not available!";
     }
   }
 
