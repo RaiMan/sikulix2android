@@ -96,7 +96,7 @@ public class ADBTest {
     }
   }
 
-  private static void ideTest(ADBScreen aScr) {
+  public static void ideTest(ADBScreen aScr) {
     String title = "Android Support - Testing device";
     Sikulix.popup("Take care\n\nthat device is on and unlocked\n\nbefore clicking ok", title);
     aScr.wakeUp(2);
