@@ -47,7 +47,7 @@ public class ADBClient {
             adbPath = System.getProperty("sikulixadb");
           }
           if (adbPath == null) {
-            adbPath = Commons.getWorkDir().getAbsolutePath();
+            adbPath = new File(System.getProperty("user.dir")).getAbsolutePath();
           }
           File adbFile = new File(adbPath, adbExec);
           if (!adbFile.exists()) {
