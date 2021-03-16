@@ -10,7 +10,7 @@
 
   <packaging>jar</packaging>
 
-  <name>SikuliX to Android</name>
+  <name>sikulix2android</name>
   <description>... support for Android via ADB</description>
 
   <url>http://www.sikulix.com</url>
